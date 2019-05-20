@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Answer questions and find a friend whose answers best match your own.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akoval92/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akoval92/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/akoval92/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "path": "^0.12.7"
+  }
+}
