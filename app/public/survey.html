@@ -1,222 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>surveyPage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 
 
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $('dropdown-toggle').dropdown()
-});
-</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('dropdown-toggle').dropdown()
+        });
+    </script>
 </head>
+
 <body>
-        
-        <div class="container">
-             <h3>Answer questions to find a match</h3>
 
-             <h4 id="survHeader">The Basics</h4>
+    <div class="container">
+        <h3>Answer questions to find a match</h3>
 
-             <h5 id="nameInput">Your Name</h5>
-             <!--name input--><input placeholder="Name" id="first_name" type="text" class="validate">
+        <h4 id="survHeader">The Basics</h4>
 
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-  </div>
-  <h5>Your Picture</h5>
-  <input type="text" placeholder="Link to Image" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-</div>
+        <h5 id="nameInput">Your Name</h5>
+        <!--name input--><input placeholder="Name" id="first_name" type="text" class="validate">
 
-
-
-<h4 class="question">Question 1:</h4>
-
-<h5>A night in usually sounds better than a night out.</h5>
-
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <h5>Your Picture</h5>
+            <input type="text" placeholder="Link to Image" class="form-control" id="basic-url"
+                aria-describedby="basic-addon3">
         </div>
-      </div>
 
 
-<h4 class="question">Question 2:</h4>
 
-<h5>You prefer romantic comedies over sappy romance movies.</h5>
+        <h4 class="question">Question 1:</h4>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <h5>A night in usually sounds better than a night out.</h5>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-<h4 class="question">Question 3:</h4>
+        <h4 class="question">Question 2:</h4>
 
-<h5>You have or you'd like to try at least 1 extreme activity someday  (i.e. skydiving, bungee jumping, rafting, ziplining). </h5>
+        <h5>You prefer romantic comedies over sappy romance movies.</h5>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-<h4 class="question">Question 4:</h4>
+        <h4 class="question">Question 3:</h4>
 
-<h5>You have a "go-with-the-flow" personality.</h5>
+        <h5>You have or you'd like to try at least 1 extreme activity someday (i.e. skydiving, bungee jumping, rafting,
+            ziplining). </h5>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-<h4 class="question">Question 5:</h4>
+        <h4 class="question">Question 4:</h4>
 
-<h5>You prefer to have every day and activity planned out before taking trip.</h5>
+        <h5>You have a "go-with-the-flow" personality.</h5>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
+        <h4 class="question">Question 5:</h4>
 
-<h4 class="question">Question 6:</h4>
+        <h5>You prefer to have every day and activity planned out before taking trip.</h5>
 
-<h5>You can have a civil debate with someone and stay friends even if you don't agree with their opinion.</h5>
-
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-<h4 class="question">Question 7:</h4>
 
-<h5>You can make small talk with anyone.</h5>
+        <h4 class="question">Question 6:</h4>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <h5>You can have a civil debate with someone and stay friends even if you don't agree with their opinion.</h5>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-<h4 class="question">Question 8:</h4>
+        <h4 class="question">Question 7:</h4>
 
-<h5>You'd rather spend a day out at the movies or an aquarium rather than a ballgame or theme park. </h5>
+        <h5>You can make small talk with anyone.</h5>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-      <h4 class="question">Question 9:</h4>
+        <h4 class="question">Question 8:</h4>
 
-<h5>You are open to new experiences.</h5>
+        <h5>You'd rather spend a day out at the movies or an aquarium rather than a ballgame or theme park. </h5>
 
-<div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
-    <h4 class="question">Question 10:</h4>
+        <h4 class="question">Question 9:</h4>
 
-<h5>You prefer building a routine and sticking to it.</h5>
+        <h5>You are open to new experiences.</h5>
 
-<div  id="lastQuestion" class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          1(Strongly Disagree)
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">2</a>
-          <a class="dropdown-item" href="#">3</a>
-          <a class="dropdown-item" href="#">4</a>
-          <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
         </div>
-      </div>
 
 
+        <h4 class="question">Question 10:</h4>
 
+        <h5>You prefer building a routine and sticking to it.</h5>
 
-
+        <div id="lastQuestion" class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                1(Strongly Disagree)
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+            </div>
+        </div>
 
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
