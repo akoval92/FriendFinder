@@ -1,0 +1,32 @@
+#jumbo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#gotobtn{
+    margin-top: 20px;
+}
+
+#survHeader{
+    border-bottom: solid;
+}
+
+#nameInput{
+    padding-top: 15px;
+}
+
+#survHeader{
+    padding-top: 15px;
+}
+
+.dropdown{
+    padding-top: 20px;
+}
+
+.question{
+    padding-top: 30px;
+}
+
+#lastQuestion{
+    padding-bottom: 30px;
+}
