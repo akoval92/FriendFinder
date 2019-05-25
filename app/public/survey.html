@@ -51,10 +51,11 @@
                 1(Strongly Disagree)
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">2</a>
-                <a class="dropdown-item" href="#">3</a>
-                <a class="dropdown-item" href="#">4</a>
-                <a class="dropdown-item" href="#">5(Strongly Agree)</a>
+                <option id="quest1" class="dropdown-item" value = "1" selected = "selected">1</option>
+                <option class="dropdown-item" value = "2" selected = "selected">2</option>
+                <option class="dropdown-item" value = "3" selected = "selected">3</option>
+                <option class="dropdown-item" value = "4" selected = "selected">4</option>
+                <option class="dropdown-item" value = "5" selected = "selected">5(Strongly Agree)</option>
             </div>
         </div>
 
@@ -233,6 +234,64 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+
+    <!-- <button id="submitBtn" class="btn btn-secondary" type="submit">
+        Submit
+    </button> -->
+
+
+<!-- Button trigger modal -->
+<button id="myModal" type="submit" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+        Submit
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Here is your match!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+            <p><a></a>Place for name</p>
+            <p><a></a>Place for picture</p>
+
+            <p><a></a>Place for Scores</p>
+
+
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                //Modal
+      $('#myModal').modal(options)
+
+    </script>
 
 </body>
 
