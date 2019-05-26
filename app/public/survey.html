@@ -9,16 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="style/css" href="style.css">
 
 
 
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('dropdown-toggle').dropdown()
-        });
-    </script>
+   
 </head>
 
 <body>
@@ -39,11 +35,14 @@
                 aria-describedby="basic-addon3">
         </div>
 
-
+<!-- *****************************Question Start************************************************** -->
 
         <h4 class="question">Question 1:</h4>
 
         <h5>A night in usually sounds better than a night out.</h5>
+
+    
+
 
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -51,13 +50,16 @@
                 1(Strongly Disagree)
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <option id="quest1" class="dropdown-item" value = "1" selected = "selected">1</option>
-                <option class="dropdown-item" value = "2" selected = "selected">2</option>
-                <option class="dropdown-item" value = "3" selected = "selected">3</option>
-                <option class="dropdown-item" value = "4" selected = "selected">4</option>
-                <option class="dropdown-item" value = "5" selected = "selected">5(Strongly Agree)</option>
+                <ul id="quest1" onchange="getSelectValue();">
+                <li class="numSelect" class="dropdown-item" value = "1">1</li>
+                <li class="numSelect" class="dropdown-item" value = "2">2</li>
+                <li class="numSelect" class="dropdown-item" value = "3">3</li>
+                <li class="numSelect" class="dropdown-item" value = "4">4</li>
+                <li class="numSelect" class="dropdown-item" value = "5">5(Strongly Agree)</li>
+            </ul>
             </div>
         </div>
+
 
 
         <h4 class="question">Question 2:</h4>
@@ -277,19 +279,31 @@
 <script>
 
 
+        $(document).ready(function () {
+
+            
+
+        
+            if ($('.dropdown-toggle').dropdown()) {
+            $('.numSelect').toggle()
+            }
+
+    //         function getValue() {
+
+    // var selectedValue = $("#quest1").on("click").value;
+    // console.log(selectedValue);
+    //         }
+
+    //         getValue();
 
 
-
-
-
-
-
-
-
+        }); //doc ready function end
+    
+    
 
 
                 //Modal
-      $('#myModal').modal(options)
+    //   $('#myModal').modal(options)
 
     </script>
 
