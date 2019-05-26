@@ -105,7 +105,7 @@
 
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             aria-haspopup="true" aria-expanded="false">
                 1(Strongly Disagree)
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -281,11 +281,15 @@
 
         $(document).ready(function () {
 
+            $('.dropdown-toggle').dropdown();
             
 
         
-            if ($('.dropdown-toggle').dropdown()) {
-            $('.numSelect').toggle()
+            
+            function selectNumber (value) {
+
+                $('.numSelect').on("click")
+                console.log(value);
             }
 
     //         function getValue() {
