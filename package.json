@@ -2,10 +2,10 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "Answer questions and find a friend whose answers best match your own.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node your-script.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
